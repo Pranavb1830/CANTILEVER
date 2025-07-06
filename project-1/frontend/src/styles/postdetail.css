@@ -1,0 +1,141 @@
+.post-detail-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.post-detail {
+  max-width: 600px;
+  width: 100%;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.like-dislike-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.emoji-button {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.emoji-button:hover {
+  transform: scale(1.2);
+}
+
+.like-button { color: #2b8a3e; }
+.dislike-button { color: #c92a2a; }
+
+.edit-delete-buttons {
+  margin: 1rem 0;
+}
+
+.comment {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 0.5rem;
+}
+
+.comment p {
+  margin: 0.2rem 0;
+  line-height: 1.4;
+  color: #333;
+}
+
+.comment strong {
+  color: #222;
+}
+
+.comment-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.reply-form textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reply-form button {
+  margin-top: 0.3rem;
+  padding: 0.3rem 1rem;
+  background: #2b8a3e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comment-form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-form textarea {
+  resize: vertical;
+  padding: 0.75rem;
+  min-height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.comment-submit {
+  align-self: flex-end;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.2rem;
+  background: #2b8a3e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  transition: background 0.2s ease;
+}
+
+.comment-submit:hover {
+  background: #237132;
+}
+
+
+.replies {
+  margin-left: 2rem;
+  border-left: 2px solid #ddd;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.reply {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.reply p {
+  margin: 0.2rem 0;
+  line-height: 1.4;
+  color: #333;
+}
+
+.reply strong {
+  color: #444;
+}
+
+.reply .comment-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+}
