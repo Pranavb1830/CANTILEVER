@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  font-size: 1.5rem;
+}
+
+.navbar div {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  background: #f44336;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
